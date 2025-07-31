@@ -7,4 +7,4 @@ public:
     void onEnable() override;
 
     void onDisable() override;
-}
+};
