@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build-artifacts-windows
-          path: ./build/endstone_*.dll
+          path: ./build/Release/endstone_*.dll
 
   build-debian:
     name: Build on Debian
